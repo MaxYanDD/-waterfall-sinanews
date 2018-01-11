@@ -6,7 +6,7 @@
 
 通过JS控制img标签src属性，实现控制img加载时机。加载时机可以是图片进入可视区域，或者滚动到某个位置。一般我们将img的最初的src定义为一个很小的图片，真图片的src放到自定义属性中，当触发加载时，通过JS修改img的src为真正的图片地址，实现懒加载。
 
-[demo](http://js.jirengu.com/tefac)
+[demo](http://js.jirengu.com/qumot/2)
 
 ## 瀑布流布局原理
 
@@ -15,7 +15,7 @@
 [demo](https://maxyandd.github.io/web-preview/%E7%80%91%E5%B8%83%E6%B5%81%E5%B8%83%E5%B1%80%E5%AE%9E%E7%8E%B0/index.html)
 
 ## 瀑布流布局-新浪新闻实现原理
-
+通过结合瀑布流布局和懒加载，完成新浪图片新闻展示。
 
 
 1. 调用$.ajax使用jsonp方式获取数据
